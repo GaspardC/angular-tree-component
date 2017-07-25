@@ -52,7 +52,6 @@
     "e2e:tsc": "cd e2e && tsc"
   },
   "files": [
-    "dist/"
   ],
   "readme": "https://github.com/500tech/angular-tree-component/blob/master/README.md",
   "contributors": [
