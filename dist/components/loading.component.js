@@ -9,7 +9,8 @@ var LoadingComponent = (function () {
         { type: Component, args: [{
                     encapsulation: ViewEncapsulation.None,
                     selector: 'LoadingComponent, tree-loading-component',
-                    template: "\n    <span *ngIf=\"!template\">loading...</span>\n    <ng-container\n      [ngTemplateOutlet]=\"template\"\n      [ngOutletContext]=\"{ $implicit: node }\">\n    </ng-container>\n  ",
+                    template: "\n    " +
+                    "<ng-container\n      [ngTemplateOutlet]=\"template\"\n      [ngOutletContext]=\"{ $implicit: node }\">\n    </ng-container>\n  ",
                 },] },
     ];
     /** @nocollapse */
